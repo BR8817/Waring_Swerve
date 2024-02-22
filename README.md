@@ -1,2 +1,4 @@
 # Waring_Swerve
 Basic swerve command from wpi lib
+
+This code is what I have been working on lately I can get the driving motors to respond with the left stick of the xbox controller I can even steer using the left stick as long as I am giving the driving motors power (slightly forward and then roatate the stick). When I try to use the x axis of the right stick of the controller the driving wheels move and the turning motor moves copontinuously spinning the modules continuously. It only stops when I activate the left stick. I think there is something about the PID controller or the fact that I am not referencing the CTRE cancoders but I don't know. I just want to get a basic control system working. I dont even care about field relative driving I just want the thing to respond to the joysticks of the XBOX controller.
